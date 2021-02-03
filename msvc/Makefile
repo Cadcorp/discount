@@ -1,5 +1,5 @@
 # NMAKE Makefile to build Discount with Visual C++
-CFLAGS	=	/nologo /MP /MDd /EHa /Zi \
+CFLAGS	=	/nologo /MP /MD /EHa /Zi \
 			/D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /D_SCL_SECURE_NO_WARNINGS \
 			/I.
 LIBOBJ	=	mkdio.obj markdown.obj dumptree.obj generate.obj \
